@@ -1,11 +1,5 @@
-import { StyleSheet, Text, View } from "react-native";
+import ExpensesOutput from "../components/ExpensesOutput/ExpensesOutput";
 
 export default function AllExtenses() {
-  return (
-    <View>
-      <Text>AllExtenses</Text>
-    </View>
-  );
+  return <ExpensesOutput expensesPeriod="Total" />;
 }
-
-const styles = StyleSheet.create({});
