@@ -15,11 +15,17 @@ export default function ManageExpenses({ route, navigation }) {
     });
   }, [isEditting, navigation]);
 
-  const deletePressHandler = () => {};
+  const deletePressHandler = () => {
+    navigation.goBack();
+  };
 
-  const cancelHandler = () => {};
+  const cancelHandler = () => {
+    navigation.goBack();
+  };
 
-  const confirmHandler = () => {};
+  const confirmHandler = () => {
+    navigation.goBack();
+  };
 
   return (
     <View style={styles.container}>
